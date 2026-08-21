@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
+@theme {
+    --font-display: "Baloo 2", sans-serif;
+    --font-sans: "Manrope", sans-serif;
+
+    --shadow-brand: 0 6px 16px rgba(21,50, 41, 0.18);
+}
 :root {
-    background-color: #EAF4F1;
+    background-color: #fbf9f4;
+}
+
+@layer base {
+    body {
+        font-family: var(--font-sans);
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: var(--font-display);
+        font-weight: 700;
+    }
 }
