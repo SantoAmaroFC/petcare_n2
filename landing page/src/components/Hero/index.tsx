@@ -3,10 +3,10 @@ import { MdOutlinePets, MdOutlineStar } from "react-icons/md";
 export default function Hero() {
     return(
 
-        <div className="flex flex-col items-center justify-center flex gap-y-5 mt-10   ">
-           <div className="flex  bg-[#DCEFE4] px-6 py-2.5 rounded-full shadow-2xl  "> 
-            <MdOutlinePets />
-            <p className=" text-black font-medium text-sm "> Feito para tutores atentos</p>
+        <div className="flex flex-col items-center justify-center py-20">
+           <div className="flex items-center gap-2 bg-[#DCEFE4] p-2.5 rounded-full"> 
+            <MdOutlinePets size={20} color="#153229" />
+            <p className=" text-[#153229] text-sm font-bold "> Feito para tutores atentos</p>
 
             </div>
             
