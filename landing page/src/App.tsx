@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <Ficture />
       <Cards 
-      icon= {<CiCalendar /> }
+      icon=""
                 title="Agendamento de consultas"
                 description="Marque horarios com clinicas parceiras em poucos toques e receba lembretes automaticos"
       />
