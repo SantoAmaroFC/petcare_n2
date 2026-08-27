@@ -1,9 +1,7 @@
 
-import { CiCalendar } from "react-icons/ci";
-import Cards from "./components/Cards";
-import Ficture from "./components/Ficture";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar"
+import Ficture from "./layout/Ficture";
+import Hero from "./layout/Hero";
+import Navbar from "./layout/Navbar"
 
 function App() {
   
@@ -13,11 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Ficture />
-      <Cards 
-      icon=""
-                title="Agendamento de consultas"
-                description="Marque horarios com clinicas parceiras em poucos toques e receba lembretes automaticos"
-      />
+     
       
     </>
   );

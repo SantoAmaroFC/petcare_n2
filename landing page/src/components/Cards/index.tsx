@@ -1,33 +1,23 @@
-import { CiCalendar } from "react-icons/ci";
+import type React from "react";
+
 
 type CardProps = {
     title: string;
     description: string;
-    icon: string;
+    icon: React.ReactElement;
+    backgroundColor?: string;
 }
 
 
-export default function Cards({ title, description, icon }: CardProps) {
+export default function Cards({ title, description, icon, backgroundColor }: CardProps) {
     return (
-        <div className="w-full max-w-sm overflow-hidden rounded-xl bg-white shadow-md transition hover:scale-105">
+        <div className="bg-white border-[#ccc] rounded-lg p-8 mb-12 max-w-100">
 
-            <p className="flex items-center gap-2 bg-[#DCEFE4] p-2.5 rounded-full">
-                {icon}
-            </p>
+            
+            <div className={`${backgroundColor} rounded-2xl p-2 w-12`}>{icon}</div>
+            <p className="mt-6 font-bold text-[18px]">{title}</p>
 
-
-            <div className="p-5">
-                <h2 className="text-xl font-bold text-gray-800">
-                    {title}
-                </h2>
-
-                {description && (
-                    <p className="mt-2 text-sm text-gray-500">
-                        {description}
-                    </p>
-                )}
-            </div>
-
+            <p className="mt-4">{description}</p>
         </div>
 
     );
