@@ -1,16 +1,10 @@
-import 'dotenv/config'
 import pg from 'pg'
-
+import 'dotenv/config'
 const { Pool } = pg
 
-export const pool = new Pool() 
-    
+export const pool = new Pool()
 
-
-
-pool.on("error", (error) => {
-        console.error(
-            "Conexão iddle encontrada", error
-        );
-        process.exit(1)
+pool.on('error', (err) => {
+    console.error('Uneexpected error on idle client', err)
+    process.exit(1)
 })
