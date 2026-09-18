@@ -1,6 +1,7 @@
 import { pool } from "../database/connection.js";
 import { Cliente, CriarCliente } from "../types/cliente.js"
 
+
 class ClienteService { async getAll(): Promise<Cliente[]> {
     const res = await pool.query<Cliente>("SELECT * FROM clientes")
     return res.rows
