@@ -15,13 +15,13 @@ function App() {
               <p className="  text-sm">Acompanhe a rotina do seu pet.</p>
             </div>
             <div>
-              <p>E-mail</p>
+              <p className="text-[14px]">E-mail</p>
               <input
               type="text"
               name="voce@email.com" />
             </div>
             <div>
-              <p>Senha</p>
+              <p className="text-[14px]">Senha</p>
               <input
               type="text"
               name="name" />
