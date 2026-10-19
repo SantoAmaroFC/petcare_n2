@@ -20,7 +20,8 @@ function App() {
               type="text"
               name="voce@email.com" />
             </div>
-            <div>
+            <
+              div>
               <p className="text-[14px]">Senha</p>
               <input
               type="text"
