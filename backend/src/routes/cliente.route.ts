@@ -48,4 +48,3 @@ clienteRouter.post("/", async (request: Request<{}, {}, CriarCliente>, response:
     }
 }) 
 
-e
