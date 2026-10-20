@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { registroPontoService } from "../services/registro_ponto.services.js";
+import { registroPontoService } from "../services/registro_ponto.service.js";
 import { CriarRegistroPonto } from "../types/registro_ponto.js";
 
 export const registroPontoRouter = Router();

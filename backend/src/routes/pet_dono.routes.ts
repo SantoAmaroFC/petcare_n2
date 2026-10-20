@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { petDonoService } from "../services/pet_dono.services.js";
+import { petDonoService } from "../services/pet_dono.service.js";
 import { CriarPetDono } from "../types/pet_dono.js";
 
 export const petDonoRouter = Router();

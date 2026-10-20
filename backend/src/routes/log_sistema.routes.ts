@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { logSistemaService } from "../services/log_sistema.services.js";
+import { logSistemaService } from "../services/log_sistema.service.js";
 import { CriarLogSistema } from "../types/log_sistema.js";
 
 export const logSistemaRouter = Router();

@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { consultaService } from "../services/consulta.services.js";
+import { consultaService } from "../services/consulta.service.js";
 import { CriarConsulta } from "../types/consulta.js";
 
 export const consultaRouter = Router();

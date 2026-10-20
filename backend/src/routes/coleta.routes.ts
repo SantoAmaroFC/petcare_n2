@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { coletaService } from "../services/coleta.services.js";
+import { coletaService } from "../services/coleta.service.js";
 import { CriarColeta } from "../types/coleta.js";
 
 export const coletaRouter = Router();

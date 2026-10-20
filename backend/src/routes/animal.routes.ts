@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { animalService } from "../services/animal.services.js";
+import { animalService } from "../services/animal.service.js";
 import { CriarAnimal } from "../types/animal.js";
 
 export const animalRouter = Router();

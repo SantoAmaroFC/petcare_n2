@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { servicoService } from "../services/servico.services.js";
+import { servicoService } from "../services/servico.service.js";
 import { CriarServico } from "../types/servico.js";
 
 export const servicoRouter = Router();

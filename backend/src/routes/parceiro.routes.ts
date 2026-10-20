@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { parceiroService } from "../services/parceiro.services.js";
+import { parceiroService } from "../services/parceiro.service.js";
 import { CriarParceiro } from "../types/parceiro.js";
 
 export const parceiroRouter = Router();

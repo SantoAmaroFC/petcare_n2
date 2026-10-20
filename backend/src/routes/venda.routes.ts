@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { vendaService } from "../services/venda.services.js";
+import { vendaService } from "../services/venda.service.js";
 import { CriarVenda } from "../types/venda.js";
 
 export const vendaRouter = Router();

@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { estoqueService } from "../services/estoque.services.js";
+import { estoqueService } from "../services/estoque.service.js";
 import { CriarEstoque } from "../types/estoque.js";
 
 export const estoqueRouter = Router();

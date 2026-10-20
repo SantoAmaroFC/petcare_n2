@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { cargoFuncService } from "../services/cargo_func.services.js";
+import { cargoFuncService } from "../services/cargo_func.service.js";
 import { CriarCargoFunc } from "../types/cargo_func.js";
 
 export const cargoFuncRouter = Router();

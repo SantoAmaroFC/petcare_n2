@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { aumigoService } from "../services/aumigo.services.js";
+import { aumigoService } from "../services/aumigo.service.js";
 import { CriarAumigo } from "../types/aumigo.js";
 
 export const aumigoRouter = Router();

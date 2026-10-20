@@ -1,4 +1,4 @@
-export interface Consulta {
+export interface Estoque {
   id: string;
   data: string;
   id_animal: string;
@@ -6,7 +6,7 @@ export interface Consulta {
   id_servico: string;
 }
 
-export interface CriarConsulta {
+export interface Criar {
   data: string;
   id_animal: string;
   id_medico: string;

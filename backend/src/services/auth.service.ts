@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { pool } from "../databse/connection.js";
-import { funcionarioService } from "./funcionario.services.js";
+import { funcionarioService } from "./funcionario.service.js";
 import { RespostaLogin } from "../types/funcionario.js";
 
 const JWT_SECRET = process.env.JWT_SECRET;

@@ -1,5 +1,5 @@
 import { Router, type Request, type Response } from "express";
-import { frotaService } from "../services/frota.services.js";
+import { frotaService } from "../services/frota.service.js";
 import { CriarFrota } from "../types/frota.js";
 
 export const frotaRouter = Router();

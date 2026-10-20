@@ -4,7 +4,7 @@ import express, {
   type Request,
   type Response,
 } from "express";
-import { clientService } from "../services/client.services.js";
+import { clientService } from "../services/client.service.js";
 import { CriarCliente } from "../types/cliente.js";
 
 export const clienteRouter = Router();
