@@ -12,7 +12,7 @@ export default function Navbar() {
       </div>
 
       <nav>
-        <ul className="flex items-center gap-5 md:gap-10">
+        <ul className="flex items-end gap-5 md:gap-10">
           <li>
             <a href="" className="text-xs md:text-base text-[#1F4136]">
               Inicio

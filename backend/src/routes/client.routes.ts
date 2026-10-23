@@ -1,9 +1,4 @@
-import express, {
-  response,
-  Router,
-  type Request,
-  type Response,
-} from "express";
+import express, {response,Router,type Request,type Response,} from "express";
 import { clientService } from "../services/client.service.js";
 import { CriarCliente } from "../types/cliente.js";
 
