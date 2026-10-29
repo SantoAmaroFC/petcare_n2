@@ -37,7 +37,7 @@ class ClientRepository {
       [id],
     );
 
-    return (res);
+    return res.rows[0];
   }
 }
 
