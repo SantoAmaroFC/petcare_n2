@@ -73,7 +73,7 @@ export default function AuthPage() {
 
       <div className="flex items-center gap-1 mt-6 text-sm">
         <p className="text-gray-dark">Ainda não tem conta?</p>
-        <a href="" className="text-green underline font-medium">
+        <a href="/register" className="text-green underline font-medium">
           Cadastre-seu pet
         </a>
       </div>
