@@ -1,4 +1,4 @@
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { Animal, CriarAnimal } from "../types/animal.js";
 
 class AnimalRepository {

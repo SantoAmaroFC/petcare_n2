@@ -1,4 +1,4 @@
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { Estoque, CriarEstoque } from "../types/estoque.js";
 
 class EstoqueService {

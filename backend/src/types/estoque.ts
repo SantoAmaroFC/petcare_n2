@@ -6,7 +6,7 @@ export interface Estoque {
   id_servico: string;
 }
 
-export interface Criar {
+export interface CriarEstoque {
   data: string;
   id_animal: string;
   id_medico: string;

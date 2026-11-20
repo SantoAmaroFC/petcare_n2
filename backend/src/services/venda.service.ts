@@ -1,4 +1,4 @@
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { Venda, CriarVenda } from "../types/venda.js";
 
 class VendaService {

@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { funcionarioService } from "./funcionario.service.js";
 import { RespostaLogin } from "../types/funcionario.js";
 

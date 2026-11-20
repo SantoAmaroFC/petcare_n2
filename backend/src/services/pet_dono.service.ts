@@ -1,4 +1,4 @@
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { PetDono, CriarPetDono } from "../types/pet_dono.js";
 
 class PetDonoService {

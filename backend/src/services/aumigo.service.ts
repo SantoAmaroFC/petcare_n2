@@ -1,4 +1,4 @@
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { Aumigo, CriarAumigo } from "../types/aumigo.js";
 
 class AumigoService {

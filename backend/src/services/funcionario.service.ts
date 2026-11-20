@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { Funcionario, CriarFuncionario } from "../types/funcionario.js";
 
 class FuncionarioService {

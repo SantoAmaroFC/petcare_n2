@@ -1,4 +1,4 @@
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { CargoFunc, CriarCargoFunc } from "../types/cargo_func.js";
 
 class CargoFuncService {

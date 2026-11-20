@@ -1,4 +1,4 @@
-import { pool } from "../databse/connection.js";
+import { pool } from "../database/connection.js";
 import { LogSistema, CriarLogSistema } from "../types/log_sistema.js";
 
 class LogSistemaService {
